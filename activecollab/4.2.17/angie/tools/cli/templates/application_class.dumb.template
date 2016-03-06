@@ -1,0 +1,112 @@
+<?php
+
+  /**
+   * ##APPLICATION_NAME## application class
+   *
+   * @package ##APPLICATION_NAME##
+   */
+  class ##APPLICATION_NAME## extends AngieApplicationAdapter {
+
+    /**
+     * Return application name
+     *
+     * @return string
+     */
+    function getName() {
+      return '##APPLICATION_NAME##';
+    } // getName
+
+    /**
+     * Return application URL
+     *
+     * @return string
+     */
+    function getUrl() {
+      return 'http://www.a51dev.com';
+    } // getUrl
+
+    /**
+     * Returns true if current application version is stable
+     *
+     * @return boolean
+     */
+    function isStable() {
+      return false;
+    } // isStable
+
+    /**
+     * Return vendor name
+     *
+     * @return string
+     */
+    function getVendor() {
+      return 'A51';
+    } // getVendor
+
+    /**
+     * Return license agreement URL
+     *
+     * @return string
+     */
+    function getLicenseAgreementUrl() {
+      return '#';
+    } // getLicenseAgreementUrl
+
+    /**
+     * Return application API version
+     *
+     * @return string
+     */
+    function getApiVersion() {
+      return '1.0';
+    } // getApiVersion
+
+    /**
+     * Return something that makes this application instance unique
+     *
+     * @return string
+     */
+    function getUniqueKey() {
+      return '##UNIQUE_KEY##';
+    } // getUniqueKey
+
+    /**
+     * Return module signature
+     *
+     * @return string
+     */
+    function getModuleSignature() {
+      return '##MODULE_SIGNATURE##';
+    } // getModuleSignature
+
+    /**
+     * Return check for updates URL
+     *
+     * @return string
+     */
+    function getCheckForUpdatesUrl() {
+      return AngieApplication::getRequestSchema() . 'www.##SHORT_APPLICATION_NAME##.com/l/';
+    } // getCheckForUpdatesUrl
+
+    /**
+     * Return download update URL
+     *
+     * @return string
+     */
+    function getDownloadUpdateUrl() {
+      return AngieApplication::getRequestSchema() . 'www.##SHORT_APPLICATION_NAME##.com/remote/download-##SHORT_APPLICATION_NAME##';
+    } // getDownloadUpdateUrl
+
+    // ---------------------------------------------------
+    //  First run
+    // ---------------------------------------------------
+
+    /**
+     * Do operations that require entire system to be loaded, but are executed
+     * on the first system run
+     */
+    function onFirstRun() {
+
+    } // onFirstRun
+
+  }

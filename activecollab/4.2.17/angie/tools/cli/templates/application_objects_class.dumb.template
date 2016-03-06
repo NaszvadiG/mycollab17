@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Application objects manager
+   *
+   * @package ##APPLICATION_NAME##.modules.##MODULE_NAME##
+   * @subpackage models
+   */
+  abstract class ApplicationObjects extends FwApplicationObjects {
+
+  }

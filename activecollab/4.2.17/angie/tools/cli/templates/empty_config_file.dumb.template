@@ -1,0 +1,18 @@
+<?php
+
+  /**
+   * Configuration file used by ##APPLICATION_NAME## before system is installed
+   */
+
+  define('ROOT', realpath(CONFIG_PATH . '/../##SHORT_APPLICATION_NAME##'));
+  define('ROOT_URL', '##APPLICATION_URL##/public');
+
+  define('FORCE_ROOT_URL', false);
+
+  if(!defined('CONFIG_PATH')) {
+    define('CONFIG_PATH', dirname(__FILE__));
+  } // if
+
+  //require_once CONFIG_PATH . '/license.php';
+  require_once CONFIG_PATH . '/version.php';
+  require_once CONFIG_PATH . '/defaults.php';

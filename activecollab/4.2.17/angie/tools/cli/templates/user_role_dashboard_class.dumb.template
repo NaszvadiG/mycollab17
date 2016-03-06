@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Basic user role dashboard
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class UserRoleDashboard extends FwUserRoleDashboard {
+
+  }

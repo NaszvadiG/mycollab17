@@ -1,0 +1,8 @@
+<?php
+
+  /**
+   * Return module version signature
+   *
+   * @package ##APPLICATION_NAME##.modules.status
+   */
+  return '##MODULE_SIGNATURE##';

@@ -1,0 +1,15 @@
+<?php
+
+  /**
+   * This task should be executed ##TASK_TYPE##
+   *
+   * @package ##APPLICATION_NAME##
+   * @subpackage tasks
+   */
+
+  require_once dirname(__FILE__) . '/init.php';
+
+  echo '##TASK_TYPE## event started on ' . strftime(FORMAT_DATETIME) . ".\n";
+  EventsManager::trigger('on_##TASK_TYPE##');
+  ConfigOptions::setValue('last_##TASK_TYPE##_activity', time());
+  echo '##TASK_TYPE## event finished on ' . strftime(FORMAT_DATETIME) . ".\n";

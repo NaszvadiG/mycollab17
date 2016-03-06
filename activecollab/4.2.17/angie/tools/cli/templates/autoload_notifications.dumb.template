@@ -1,0 +1,12 @@
+<?php
+
+  /**
+   * Prepare notifications auto-load map
+   *
+   * @package ##APPLICATION_NAME##.modules.##MODULE_NAME##
+   * @subpackage resources
+   */
+
+  AngieApplication::setForAutoload(array(
+##AUTOLOAD_CLASSES##
+  ));

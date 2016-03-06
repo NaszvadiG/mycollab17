@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Application level history renderer implementation
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class HistoryRenderer extends FwHistoryRenderer {
+
+  }

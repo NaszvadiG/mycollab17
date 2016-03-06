@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Application level ##SHORT_NOTIFICATION_NAME## notification
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage notifications
+   */
+  ##IS_ABSTRACT##class ##NOTIFICATION_NAME## extends Fw##NOTIFICATION_NAME## {
+
+  }

@@ -1,0 +1,14 @@
+<?php
+
+  // Extend FwApplicationController controller
+  AngieApplication::useController('fw_application', ENVIRONMENT_FRAMEWORK);
+
+  /**
+   * Main activeCollab application controller
+   *
+   * @package ##APPLICATION_NAME##.modules.##MODULE_NAME##
+   * @subpackage controllers
+   */
+  abstract class ApplicationController extends FwApplicationController {
+
+  }

@@ -1,0 +1,23 @@
+<?php
+
+  /**
+   * Configuration file
+   */
+  const ROOT = '##APPLICATION_FILES_PATH##';
+  const ANGIE_PATH = '##ANGIE_PATH##';
+
+  const DB_HOST = 'localhost';
+  const DB_USER = 'root';
+  const DB_PASS = '';
+  const DB_NAME = '##SHORT_APPLICATION_NAME##_dev';
+  const DB_CAN_TRANSACT = true;
+  const DB_CHARSET = 'utf8';
+  const TABLE_PREFIX = 'angie_app_';
+
+  // Application URL
+  const ROOT_URL = '##APPLICATION_URL##/public';
+  const ADMIN_EMAIL = 'user@a51dev.com';
+  const APPLICATION_MODE = 'in_development';
+
+  require_once dirname(__FILE__) . '/version.php';
+  require_once dirname(__FILE__) . '/defaults.php';

@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Anonymous user class
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class AnonymousUser extends FwAnonymousUser {
+
+  }

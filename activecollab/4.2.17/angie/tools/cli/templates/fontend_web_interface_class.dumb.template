@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Frontend web interface response
+   *
+   * @package ##APPLICATION_NAME##.modules.##MODULE_NAME##
+   * @subpackage models
+   */
+  class FrontendWebInterfaceResponse extends FwFrontendWebInterfaceResponse {
+
+  }

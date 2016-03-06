@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Request details
+   *
+   * @package ##APPLICATION_NAME##.modules.##MODULE_NAME##
+   * @subpackage models
+   */
+  class Request extends FwRequest {
+
+  }

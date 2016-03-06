@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Base wireframe class, extended by all other wireframe classes
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  abstract class Wireframe extends FwWireframe {
+
+  }

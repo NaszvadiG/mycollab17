@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Class that all application objects inherit
+   *
+   * @package ##APPLICATION_NAME##.modules.##MODULE_NAME##
+   * @subpackage models
+   */
+  abstract class ApplicationObject extends FwApplicationObject {
+
+  }

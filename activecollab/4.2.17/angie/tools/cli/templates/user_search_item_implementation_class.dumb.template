@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Application level user search item implementation
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class IUserSearchItemImplementation extends FwIUserSearchItemImplementation {
+
+  }

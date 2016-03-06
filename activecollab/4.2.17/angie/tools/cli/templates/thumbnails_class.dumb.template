@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Thumbnails manager
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class Thumbnails extends FwThumbnails {
+
+  }

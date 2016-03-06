@@ -1,0 +1,11 @@
+<?php
+
+   /**
+    * Application level search index implementation
+    *
+    * @package ##APPLICATION_NAME##.modules.system
+    * @subpackage models
+    */
+   class UsersSearchIndex extends FwUsersSearchIndex {
+
+   }

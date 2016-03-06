@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Application level favorites model
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class Favorites extends FwFavorites {
+
+  }

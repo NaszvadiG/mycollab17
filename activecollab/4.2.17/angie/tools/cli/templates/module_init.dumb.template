@@ -1,0 +1,10 @@
+<?php
+
+  /**
+   * Init ##MODULE_NAME## module
+   *
+   * @package ##APPLICATION_NAME##.modules.##MODULE_NAME##
+   */
+
+  define('##MODULE_NAME_UPPERCASE##_MODULE', '##MODULE_NAME##');
+  define('##MODULE_NAME_UPPERCASE##_MODULE_PATH', APPLICATION_PATH . '/modules/##MODULE_NAME##');

@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Application level trash implementation
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  final class Trash extends FwTrash {
+
+  }

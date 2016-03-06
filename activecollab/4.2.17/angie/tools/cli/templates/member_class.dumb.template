@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Member user role implementation
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class Member extends FwMember {
+
+  }

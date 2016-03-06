@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Homescreens class
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class Homescreens extends FwHomescreens {
+
+  }

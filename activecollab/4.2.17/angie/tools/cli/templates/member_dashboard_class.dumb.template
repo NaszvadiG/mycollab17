@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Members's dashboard
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class MemberDashboard extends FwMemberDashboard {
+
+  }

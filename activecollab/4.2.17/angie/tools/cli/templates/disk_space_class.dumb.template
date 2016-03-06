@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Application level disk space management implementation
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class DiskSpace extends FwDiskSpace {
+
+  }

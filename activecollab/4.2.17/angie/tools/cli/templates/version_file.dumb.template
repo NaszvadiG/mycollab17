@@ -1,0 +1,7 @@
+<?php
+
+  /**
+   * Current system version
+   */
+
+  define('APPLICATION_VERSION', 'current');

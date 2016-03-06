@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Backend wireframe
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  abstract class BackendWireframe extends FwBackendWireframe {
+
+  }

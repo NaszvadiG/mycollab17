@@ -1,0 +1,68 @@
+<?php
+
+  /**
+   * Init ##MODULE_NAME## module
+   *
+   * @package ##APPLICATION_NAME##.modules.##MODULE_NAME##
+   */
+
+  define('##MODULE_NAME_UPPERCASE##_MODULE', '##MODULE_NAME##');
+  define('##MODULE_NAME_UPPERCASE##_MODULE_PATH', APPLICATION_PATH . '/modules/##MODULE_NAME##');
+
+  if(is_file(SYSTEM_MODULE_PATH . '/resources/autoload_model.php')) {
+    require_once SYSTEM_MODULE_PATH . '/resources/autoload_model.php';
+  } // if
+
+  if(is_file(SYSTEM_MODULE_PATH . '/resources/autoload_notifications.php')) {
+    require_once SYSTEM_MODULE_PATH . '/resources/autoload_notifications.php';
+  } // if
+
+  require_once ##MODULE_NAME_UPPERCASE##_MODULE_PATH . '/models/controller/Request.class.php';
+  require_once ##MODULE_NAME_UPPERCASE##_MODULE_PATH . '/models/controller/Response.class.php';
+  require_once ##MODULE_NAME_UPPERCASE##_MODULE_PATH . '/models/application_objects/ApplicationObject.class.php';
+  require_once ##MODULE_NAME_UPPERCASE##_MODULE_PATH . '/controllers/ApplicationController.class.php';
+
+  AngieApplication::setForAutoload(array(
+    'ApplicationObjects' => ##MODULE_NAME_UPPERCASE##_MODULE_PATH . '/models/application_objects/ApplicationObjects.class.php',
+    'AdminPanel' => SYSTEM_MODULE_PATH . '/models/AdminPanel.class.php',
+    'Assignments' => SYSTEM_MODULE_PATH . '/models/Assignments.class.php',
+    'AnonymousUser' => SYSTEM_MODULE_PATH . '/models/AnonymousUser.class.php',
+    'ColorSchemes' => SYSTEM_MODULE_PATH . '/models/ColorSchemes.class.php',
+    'CustomFields' => SYSTEM_MODULE_PATH . '/models/CustomFields.class.php',
+    'ControlTower' => SYSTEM_MODULE_PATH . '/models/ControlTower.class.php',
+    'DiskSpace' => SYSTEM_MODULE_PATH . '/models/DiskSpace.class.php',
+    'HistoryRenderer' => SYSTEM_MODULE_PATH . '/models/HistoryRenderer.class.php',
+    'Favorites' => SYSTEM_MODULE_PATH . '/models/Favorites.class.php',
+    'MainMenu' => SYSTEM_MODULE_PATH . '/models/MainMenu.class.php',
+    'MassManager' => SYSTEM_MODULE_PATH . '/models/MassManager.class.php',
+    'OutgoingMessageDecorator' => SYSTEM_MODULE_PATH . '/models/OutgoingMessageDecorator.class.php',
+    'ReportsPanel' => SYSTEM_MODULE_PATH . '/models/ReportsPanel.class.php',
+    'StatusBar' => SYSTEM_MODULE_PATH . '/models/StatusBar.class.php',
+    'Thumbnails' => SYSTEM_MODULE_PATH . '/models/Thumbnails.class.php',
+    'Trash' => SYSTEM_MODULE_PATH . '/models/Trash.class.php',
+
+    // Search
+    'UsersSearchIndex' => SYSTEM_MODULE_PATH . '/models/search/UsersSearchIndex.class.php',
+    'IUserSearchItemImplementation' => SYSTEM_MODULE_PATH . '/models/search/IUserSearchItemImplementation.class.php',
+
+    // Interface
+    'BackendWebInterfaceResponse' => SYSTEM_MODULE_PATH . '/models/response/BackendWebInterfaceResponse.class.php',
+    'FrontendWebInterfaceResponse' => SYSTEM_MODULE_PATH . '/models/response/FrontendWebInterfaceResponse.class.php',
+
+    // Wireframe
+    'Wireframe' => SYSTEM_MODULE_PATH . '/models/wireframe/Wireframe.class.php',
+
+    'BackendWireframe' => SYSTEM_MODULE_PATH . '/models/wireframe/BackendWireframe.class.php',
+    'WebBrowserBackendWireframe' => SYSTEM_MODULE_PATH . '/models/wireframe/WebBrowserBackendWireframe.class.php',
+    'PhoneBackendWireframe' => SYSTEM_MODULE_PATH . '/models/wireframe/PhoneBackendWireframe.class.php',
+    'TabletBackendWireframe' => SYSTEM_MODULE_PATH . '/models/wireframe/TabletBackendWireframe.class.php',
+
+    'FrontendWireframe' => SYSTEM_MODULE_PATH . '/models/wireframe/FrontendWireframe.class.php',
+
+    // Roles
+    'Administrator' => SYSTEM_MODULE_PATH . '/models/user_roles/Administrator.class.php',
+    'Member' => SYSTEM_MODULE_PATH . '/models/user_roles/Member.class.php',
+
+    // Roles and Dashboards
+    'Homescreens' => SYSTEM_MODULE_PATH . '/models/Homescreens.class.php',
+  ));

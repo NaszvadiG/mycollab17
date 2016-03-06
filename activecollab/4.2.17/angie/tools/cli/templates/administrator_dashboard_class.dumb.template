@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Administrator's dashboard
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class AdministratorDashboard extends FwAdministratorDashboard {
+
+  }

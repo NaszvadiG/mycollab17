@@ -1,0 +1,13 @@
+<?php
+
+  /**
+   * Instance dependent defaults file
+   *
+   * @package ##APPLICATION_NAME##
+   */
+  
+  if(!defined('ENVIRONMENT_PATH')) {
+    define('ENVIRONMENT_PATH', str_replace('\\', '/', realpath(dirname(__FILE__) . '/..')));
+  } // if
+
+  require_once ROOT . '/' . APPLICATION_VERSION . '/resources/defaults.php';

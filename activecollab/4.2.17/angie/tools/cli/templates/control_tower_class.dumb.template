@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Application level control tower implementation
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class ControlTower extends FwControlTower {
+
+  }

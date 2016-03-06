@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Frontend wireframe implementation
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class FrontendWireframe extends FwFrontendWireframe {
+
+  }

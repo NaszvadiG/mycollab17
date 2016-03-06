@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Application level assignments model
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class Assignments extends FwAssignments {
+
+  }

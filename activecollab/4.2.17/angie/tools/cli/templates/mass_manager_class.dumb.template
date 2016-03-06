@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Application level mass manager implementation
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class MassManager extends FwMassManager {
+
+  }

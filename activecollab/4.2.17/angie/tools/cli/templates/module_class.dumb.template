@@ -1,0 +1,38 @@
+<?php
+
+  /**
+   * ##MODULE_NAME## module definition class
+   *
+   * @package ##APPLICATION_NAME##.modules.##MODULE_NAME##
+   */
+  class ##MODULE_CLASS## extends AngieModule {
+
+    /**
+     * Plain module name
+     *
+     * @var string
+     */
+    protected $name = '##MODULE_NAME##';
+
+    /**
+     * Module version
+     *
+     * @var string
+     */
+    protected $version = '##MODULE_VERSION##';
+
+    /**
+     * Define module routes
+     */
+    function defineRoutes() {
+
+    } // defineRoutes
+
+    /**
+     * Define event handlers
+     */
+    function defineHandlers() {
+
+    } // defineHandlers
+
+  }

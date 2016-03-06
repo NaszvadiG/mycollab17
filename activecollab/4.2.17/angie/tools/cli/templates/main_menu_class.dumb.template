@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Application level main menu implementation
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class MainMenu extends FwMainMenu {
+
+  }

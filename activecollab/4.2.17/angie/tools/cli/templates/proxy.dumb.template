@@ -1,0 +1,14 @@
+<?php
+
+  // Build on top of framework level implementation
+  require_once ANGIE_PATH . '/frameworks/##FRAMEWORK_NAME##/proxies/Fw##PROXY_NAME##.class.php';
+
+  /**
+   * Application level ##SHORT_PROXY_NAME## implementation
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage proxies
+   */
+  class ##PROXY_NAME## extends Fw##PROXY_NAME## {
+
+  }

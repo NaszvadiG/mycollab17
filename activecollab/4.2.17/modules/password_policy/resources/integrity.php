@@ -1,0 +1,17 @@
+<?php return array (
+  '/views/default/password_policy_admin/index.tpl' => '2635d6d200483c6f723ac60928e5c2e7',
+  '/assets/default/images/admin_panel/password-policy-settings.png' => '2f4fdab599c5060953ee2528503019a7',
+  '/models/ConfigurablePasswordPolicy.class.php' => '4caa12738f7bb4de676f74ed0e7d2f07',
+  '/init.php' => '6f1150ebf06af0c9962724036cbb2005',
+  '/signature.php' => '7be40911f542761e2991ea753bc9fc69',
+  '/resources/dictionary.clientside.php' => '9b448f41f60e0f01350f410a9435919c',
+  '/PasswordPolicyModule.class.php' => 'a19a8f6261224b6ef8035898065439e1',
+  '/assets/default/images/module.png' => 'a382cfae37ad6023a2d6090f8e976e20',
+  '/controllers/PasswordPolicyAdminController.class.php' => 'c4c7188c2f85f695b87e89171b85f6b4',
+  '/assets/default/stylesheets/compressed.css' => 'c8b7309c492561dfe79b9fa107aa4b7f',
+  '/helpers/function.select_min_password_length.php' => 'ce331d9036f94b30b878af0c1f9612f3',
+  '/helpers/function.select_password_auto_expire.php' => 'e9fac389c3174185ec8d54cc5fc98650',
+  '/resources/PasswordPolicyModuleModel.class.php' => 'ea053eea52f4956e06f11bf5b31978fa',
+  '/resources/dictionary.serverside.php' => 'fb86d829b3a038846a598f831a299521',
+  '/handlers/on_admin_panel.php' => 'ffbefaa8d6292c171899f949b0923b3b',
+);

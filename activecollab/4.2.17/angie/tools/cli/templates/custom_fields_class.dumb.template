@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Application level custom fields model
+   *
+   * @package ##APPLICATION_NAME##.modules.system
+   * @subpackage models
+   */
+  class CustomFields extends FwCustomFields {
+
+  }

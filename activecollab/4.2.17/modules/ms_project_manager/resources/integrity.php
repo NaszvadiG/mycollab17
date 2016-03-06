@@ -1,0 +1,17 @@
+<?php return array (
+  '/MsProjectManagerModule.class.php' => '1ed9b087c5c88f9ab353c61f33a25ef2',
+  '/handlers/on_object_options.php' => '4a5811931f48d2833be87023e16fb28c',
+  '/models/MsProjectManagerExporter.class.php' => '4c1ea80d1498020b9a273b4564a4e799',
+  '/resources/dictionary.clientside.php' => '5ef6b4daec0f5a5a46ffc62d9c69e7f4',
+  '/assets/default/images/module.png' => '741034c148c87685e598a5641d351b2a',
+  '/signature.php' => '7be40911f542761e2991ea753bc9fc69',
+  '/views/default/ms_project_manager/upload.tpl' => '99225b27980e1c2f049db7186139deec',
+  '/resources/MsProjectManagerModuleModel.php' => '9f9f568fd5192029074e8befb0125dc0',
+  '/resources/dictionary.serverside.php' => 'c8bea6f2886bb660f7fa904029f672e9',
+  '/views/default/ms_project_manager/index.tpl' => 'db6010c876779826115a6db20dd9e1ef',
+  '/assets/default/stylesheets/backend/compressed.css' => 'dfea40a8b4a7be878822be794ee316c6',
+  '/models/MsProjectManagerImporter.class.php' => 'e7aa46096b4bb66562d488b892151e74',
+  '/xml/empty_project.xml' => 'f5ac419a6b83edbe4bc1f66eabe1feca',
+  '/controllers/MsProjectManagerController.class.php' => 'fa2c038d725d2f16152d8055512187d4',
+  '/init.php' => 'fa9f178b072946e3814a29ce82c2bcd8',
+);

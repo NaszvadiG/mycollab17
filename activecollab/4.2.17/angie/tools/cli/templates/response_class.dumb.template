@@ -1,0 +1,11 @@
+<?php
+
+  /**
+   * Controller response implementation
+   *
+   * @package ##APPLICATION_NAME##.modules.##MODULE_NAME##
+   * @subpackage models
+   */
+  abstract class Response extends FwResponse {
+
+  }
